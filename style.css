@@ -1,0 +1,337 @@
+/* _____FOR LOGIN PAGE_____ */
+/* Background for login page*/
+.loginbg
+{
+	background-image: url(Loginbg.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* Email styles for login page*/
+.Email
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	max-width: 600px;
+	width: 350%;
+	font-size: 18px;
+	color: #000;
+	font-family: TeX Gyre Schola Math;
+	border: 5px solid #6698FF;
+	border-radius: 20px;
+	padding: 50px;
+}
+/*login button*/
+.lgnbtn
+{
+	position: absolute;
+	top: 86%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: #000;
+	border: 3px solid #6698FF;
+	border-radius: 8px;
+	padding:10px 30px;
+}
+.lgnbtn:hover
+{
+	background-color: #FFC0CB;
+	transition: 0.5s ease;
+}
+
+
+/*_____FOR HOME PAGE_____*/
+/*For Austronaout image*/
+.austronaut
+{
+	position: absolute;
+	top: 30%;
+	left: 70%;
+}
+/*For background of body*/
+.homebg
+{
+	background-image: url(home.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/*For Logo*/
+.logo img
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+/*For nav-bar*/
+.container1
+{
+	height: 110px;
+	max-width: 10000px;
+	background-image: url(navbg.gif);
+}
+.navtitle
+{
+	color: #0909FF;
+	position: absolute;
+	top: 9%;
+	left: 32%;
+	transform: translate(-50%,-50%);
+	font-family: Dyuthi;
+	font-size: 35px;
+}
+.navbar-nav
+{
+	padding: 20px 20px;
+	display: inline-block;
+	margin-top: 1px;
+	margin-left: 650px;
+}
+ul li
+{
+	display: inline-block;
+}
+.nav-item
+{
+	border: 2px solid #1E90FF;
+	border-radius: 4px;
+	padding: 1.5px;
+}
+.nav-item:hover
+{
+	background-color: #FFAE42;
+	transition: 0.5s ease;
+}
+/*For buttons in home page*/
+.button
+{
+	position: absolute;
+	top: 64%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.btn
+{
+	border: 2px solid #1E90FF;
+	padding: 10px 20px;
+	color: #fff;	
+}
+.btn:hover
+{
+	background-color: #FFAE42;
+	transition: 0.5s ease;
+}
+/*Background for solar System*/
+.Solarbg
+{
+	background-image: url(SolarSystemBg.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #fff;
+}
+/*Nav-bar in Solar System*/
+.scontainer
+{
+	height: 130px;
+	max-width: 10000px;
+	background-color: #98AFC7;
+	border: 3px solid #6A0DAD;
+	border-radius: 3px;
+}
+/*Logos in Nav-bar in Solar System & Planets*/
+.navbar-brand
+{
+	margin-top: 3px;
+	margin-left:1px;
+}
+/*For Videos Styles*/
+.video
+{
+	background-image: url(Videosbg.gif);
+}
+.vidl
+{
+	margin-top: 40px;
+	margin-left:50px;
+	border: 5px solid #FFAE42;
+	border-radius: 50px;
+}
+.vidr
+{
+	margin-top: 40px;
+	margin-left:40px;
+	border: 5px solid #FFAE42;
+	border-radius: 50px;
+}
+/*-----FOR GALLARY PAGE-----*/
+/*For background image for GALLARY HTML*/
+.Gallerybg
+{
+	background-image: url(Gallarybg.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/*For Background image for Cards-headers*/
+.card-header
+{
+	background-image: url(Headerbg.jpg);
+	border: 5px solid #9400D3;
+	border-radius: 15px;
+	font-family: TeX Gyre Chorus;
+	font-size: 25px;
+	color: #fff;
+}
+/*For Background image for Cards-footers*/
+.card-footer
+{
+	background-image: url(Footerbg.jpg);	
+	border: 5px solid #9400D3;
+	border-radius: 15px;
+	color: #fff;
+	font-family: Latin Modern Sans Demi Cond;
+	font-size: 20px;
+}
+/*BG FOR cards*/
+.card-body
+{
+	background-color: #E0B0FF;
+	border: 5px solid #9400D3;
+}
+.carousel-inner
+{
+	border: 4px solid #FFAE42;
+	border-radius: 10px;
+}
+.card-title
+{
+	font-family:Dyuthi;
+}
+.carousel-caption
+{
+	font-family: Lato Heavy;
+	color: #7FFFD4;
+}
+.footerbtn
+{
+	background-color: #E0B0FF;
+	color: #000;
+	border: 3px solid #FFAE42;
+	border-radius: 8px;
+	padding:5px 15px;
+}
+.footerbtn:hover
+{
+	background-color: #9400D3;
+	transition: 0.5s ease;
+}
+/*For accordian*/
+.accordian
+{
+	background-color: #E0B0FF;
+	color: #000;
+	cursor: pointer;
+	padding: 5px;
+	width: 100%;
+	text-align: middle;
+	border: 3px solid #FFAE42;
+	border-radius: 10px;
+	transition: 0.5s;
+	font-family: Latin Modern Roman Demi;
+	font-size: 20px;
+}
+.accordian:hover
+{
+	background-color: #9400D3;
+}
+.accordinfo
+{
+	font-family: Latin Modern Roman Unslanted;
+	color: #000;
+	font-size: 18px;
+}
+
+/*FOR LOGOUT PAGE*/
+.logoutbg
+{
+	background-image: url(Logoutbg.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.middle
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #000;
+	font-size: 20px;
+	font-family: Andika;
+}
+.button-logout
+{
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+/*For Title*/
+.logutitle
+{
+	color: #0909FF;
+	font-size: 65px;
+	font-family: TeX Gyre Chorus;
+}
+/*Background Image gor Register page*/
+.Regbg
+{
+	background-image: url(Registerbg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.Register
+{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	max-width: 500px;
+	width: 300%;
+	font-family:DejaVu Math TeX Gyre;
+	font-size: 17px;
+	color: #000;
+	border: 5px solid #0909FF;
+	border-radius: 15px;
+	padding: 33px;
+}
+.Regbtn
+{
+	border: 4px solid #0909FF;
+	border-radius: 7px;
+	padding: 10px 20px;
+	color: #000;	
+	margin-left: 33%;
+}
+.Regbtn:hover
+{
+	background-color: #FFAE42;
+	transition: 0.5s ease;
+}
+
+
+
